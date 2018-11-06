@@ -47,3 +47,6 @@ nothing added to commit but untracked files present (use "git add" to track)
 ------$ git log --grep="change"   :- Every comment having change keyword will be shown.
 
 ------ git diff
+
+--------git branch
+--------git branch <name>
