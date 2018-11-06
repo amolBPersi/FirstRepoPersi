@@ -55,5 +55,12 @@ The other branches can be finally added to master by merging.
 
 --------git merge bug123   //First do >>git checkout master
 
-------- git branch -d abc123
+------- git branch -d abc123     :- Safe delete with merge check.
 Deleted branch abc123 (was 52826cb)
+
+------- git branch -D abc123   :- FOrced delete without merge.
+
+
+-------git checkout -b <name>    :- Will create anew branch and switch to it..
+
+-------git remote add origin https://github.com/amolBPersi/FirstRepoPersi.git
