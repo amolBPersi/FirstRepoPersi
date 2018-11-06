@@ -50,3 +50,10 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 --------git branch
 --------git branch <name>
+Only the master branch can be seen by the public.
+The other branches can be finally added to master by merging.
+
+--------git merge bug123   //First do >>git checkout master
+
+------- git branch -d abc123
+Deleted branch abc123 (was 52826cb)
