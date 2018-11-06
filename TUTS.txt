@@ -18,3 +18,32 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 
 -----git add File1.txt
+
+
+------$ git commit -m "UI updated"
+
+
+------git add .   :- Adds all files
+
+------git add *.txt   :- Adds all text files
+
+------git commit -am   :- Add and commit.
+
+
+------git log   :-Details about the commits.
+
+------git log --oneline   :-
+------git log --oneline -2
+
+
+------git log --author="amol bhalmey" --oneline -2
+------git log --file="file.txt"
+
+
+------$ git log --since="14/12/1990"
+
+------git log --until="14/12/2017"
+
+------$ git log --grep="change"   :- Every comment having change keyword will be shown.
+
+------ git diff
